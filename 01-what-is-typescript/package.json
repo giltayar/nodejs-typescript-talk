@@ -6,8 +6,8 @@
     "declarations": "tsc --outdir ./dist --declaration --emitDeclarationOnly",
     "transpile:old": "tsc --target ES5 --outdir ./dist-old"
   },
-  "packageManager": "pnpm@10.11.0",
   "devDependencies": {
     "typescript": "^5.8.3"
-  }
+  },
+  "packageManager": "pnpm@10.11.0"
 }
