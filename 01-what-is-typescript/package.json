@@ -2,9 +2,9 @@
   "type": "module",
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "transpile": "tsc --outdir ./dist",
+    "transpile": "tsc --outdir ./dist --nocheck",
     "declarations": "tsc --outdir ./dist --declaration --emitDeclarationOnly",
-    "transpile:old": "tsc --target ES5 --outdir ./dist-old"
+    "transpile:old": "tsc --target ES5 --outdir ./dist --nocheck"
   },
   "devDependencies": {
     "typescript": "^5.8.3"
