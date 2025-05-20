@@ -4,7 +4,8 @@
     "transpile": "tsc --outdir ./dist --nocheck",
     "run:tsx": "tsx ./src/main.ts",
     "run:ts-node": "ts-node-esm ./src/main.ts",
-    "run:transpiled": "node ./dist/main.js"
+    "run:transpiled": "node ./dist/main.js",
+    "run:node": "node --experimental-strip-types src/main.ts"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
