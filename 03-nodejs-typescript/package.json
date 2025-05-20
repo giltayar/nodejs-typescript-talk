@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "start": "node src/main.ts",
+    "start:disable-experimental-warning": "node --disable-warning=ExperimentalWarning src/main.ts",
+    "start:no-warnings": "node --no-warnings src/main.ts",
+    "start:type-error": "node --no-warnings src/main-with-type-error.ts",
+    "start:cjs": "node --no-warnings src-cjs/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.20",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@10.11.0"
+}
