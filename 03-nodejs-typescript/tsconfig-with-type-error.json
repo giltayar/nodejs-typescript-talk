@@ -6,5 +6,5 @@
     "erasableSyntaxOnly": true,
     "verbatimModuleSyntax": true,
   },
-  "include": ["./src/*.ts"]
+  "include": ["./src-with-type-error/*.ts"]
 }

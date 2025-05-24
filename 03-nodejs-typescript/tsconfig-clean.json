@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "module": "Preserve",
-    "target": "ESNext"
+    "noEmit": true
   },
+  "include": ["./src/*.ts"]
 }

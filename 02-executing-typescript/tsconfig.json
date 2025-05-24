@@ -2,7 +2,6 @@
   "compilerOptions": {
     "module": "Preserve",
     "target": "ESNext",
-    "strict": true,
     "allowImportingTsExtensions": true,
     "rewriteRelativeImportExtensions": true
   },
