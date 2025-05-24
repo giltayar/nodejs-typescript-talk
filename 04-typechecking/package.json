@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/main.ts",
+    "start:type-error": "node --no-warnings src-with-type-error/main.ts",
+    "typecheck": "tsc",
+    "typecheck:with-type-error": "tsc -p tsconfig-with-type-error.json",
+    "typecheck:clean": "tsc -p tsconfig-clean.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.20",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@10.11.0"
+}
