@@ -1,0 +1,13 @@
+{
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --no-warnings  ./src/main.ts",
+    "start:mts": "node --no-warnings  ./src-mts/main.mts",
+    "start:cts": "node --no-warnings  ./src-cts/main.cts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.20",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@10.11.0"
+}
