@@ -1,10 +1,8 @@
 {
   "compilerOptions": {
     "module": "Preserve",
-    "allowImportingTsExtensions": true,
     "noEmit": true,
-    "erasableSyntaxOnly": true,
-    "verbatimModuleSyntax": true,
+    "allowImportingTsExtensions": true
   },
   "include": ["./src-with-type-error/*.ts"]
 }
