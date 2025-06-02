@@ -1,8 +1,10 @@
 {
   "type": "module",
   "scripts": {
-    "build": "node show-type-stripping.js complex.ts > complex-s.js && node show-type-transforming.js complex.ts > complex-t.js",
-    "build:throw": "node show-type-stripping.js complex-throw.ts > complex-throw-s.js && node show-type-transforming.js complex-throw.ts > complex-throw-t.js",
+    "build": "node show-type-stripping.js complex.ts > complex.js",
+    "build:transform": "node show-type-transforming.js complex.ts > complex.js",
+    "build:throw": "node show-type-stripping.js complex-throw.ts > complex-throw.js",
+    "build:throw:transform": "node show-type-transforming.js complex-throw.ts > complex-throw.js",
     "start": "node --no-warnings --experimental-strip-types main.ts",
     "start:transform": "node --no-warnings --experimental-transform-types main.ts",
     "start:throw": "node --no-warnings --experimental-strip-types main-throw.ts",
