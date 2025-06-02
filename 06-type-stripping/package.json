@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "node show-type-stripping.js complex.ts > complex-s.js && node show-type-transforming.js complex.ts > complex-t.js",
+    "build:throw": "node show-type-stripping.js complex-throw.ts > complex-throw-s.js && node show-type-transforming.js complex-throw.ts > complex-throw-t.js",
+    "start": "node --no-warnings --experimental-strip-types main.ts",
+    "start:transform": "node --no-warnings --experimental-transform-types main.ts",
+    "start:throw": "node --no-warnings --experimental-strip-types main-throw.ts",
+    "start:throw:transform": "node --no-warnings --experimental-transform-types main-throw.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.20",
+    "amaro": "^0.5.3",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@10.11.0"
+}

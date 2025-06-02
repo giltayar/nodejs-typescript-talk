@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "target": "esnext",
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "checkJs": true,
+    "verbatimModuleSyntax": true
+  }
+}
