@@ -8,7 +8,9 @@
     "start": "node --no-warnings --experimental-strip-types main.ts",
     "start:transform": "node --no-warnings --experimental-transform-types main.ts",
     "start:throw": "node --no-warnings --experimental-strip-types main-throw.ts",
-    "start:throw:transform": "node --no-warnings --experimental-transform-types main-throw.ts"
+    "start:throw:transform": "node --no-warnings --experimental-transform-types main-throw.ts",
+    "start:enum": "node use-enum.ts",
+    "start:enum:transform": "node --no-warnings --experimental-transform-types use-enum.ts"
   },
   "devDependencies": {
     "@types/node": "^22.15.20",
