@@ -1,6 +1,7 @@
 {
   "type": "module",
   "scripts": {
+    "typecheck": "tsc --noEmit",
     "build": "node show-type-stripping.js complex.ts > complex.js",
     "build:transform": "node show-type-transforming.js complex.ts > complex.js",
     "build:throw": "node show-type-stripping.js complex-throw.ts > complex-throw.js",
