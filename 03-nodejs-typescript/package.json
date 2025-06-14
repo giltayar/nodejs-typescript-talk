@@ -3,7 +3,8 @@
   "scripts": {
     "start": "node ./src/main.ts",
     "start:disable-experimental-warning": "node --disable-warning=ExperimentalWarning ./src/main.ts",
-    "start:no-warnings": "node --no-warnings ./src/main.ts"
+    "start:no-warnings": "node --no-warnings ./src/main.ts",
+    "start:ts-packages": "node --no-warnings ./src/greetings.ts"
   },
   "devDependencies": {
     "@types/node": "^22.15.20",
