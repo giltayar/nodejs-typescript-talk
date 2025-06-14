@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "typecheck:erasable": "tsc --project tsconfig.erasable-only.json",
+    "start": "for p in src/*-fixed*.ts; do node $p; done"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.20",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@10.11.0"
+}
